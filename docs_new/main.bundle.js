@@ -66,7 +66,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AppComponent = /** @class */ (function () {
     function AppComponent(http) {
         this.http = http;
-        this.baseUrl = 'http://localhost:8080';
+        //private baseUrl = 'http://localhost:8080';
+        this.baseUrl = 'http://220.240.101.236:8080';
         this.isSelfSetup = false;
         this.showBookingSection = false;
     }
