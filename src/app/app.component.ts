@@ -14,7 +14,8 @@ import {Table} from './table';
 })
 export class AppComponent implements OnInit, Table<Room> {
 
-  private baseUrl = 'http://localhost:8080';
+  //private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'http://220.240.101.236:8080';
   public submitted: boolean;
   roomsearch: FormGroup;
   roomReserve: FormGroup;
